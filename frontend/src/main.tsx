@@ -5,6 +5,7 @@ import App from "./App";
 import { ApolloProvider } from "@apollo/client";
 import client from "./apolloClient";
 import "./index.css"; // si tu as un CSS global
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     <React.StrictMode>

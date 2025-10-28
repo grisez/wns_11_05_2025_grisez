@@ -1,3 +1,9 @@
+import CountriesList from "../components/countriesList";
+
 export function HomePage() {
-  return <p>You should start working here!</p>;
+  return (
+    <div>
+      <CountriesList />
+    </div>
+  );
 }
