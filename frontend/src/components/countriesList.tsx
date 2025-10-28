@@ -20,11 +20,9 @@ const CountriesList: React.FC = () => {
                 <Link
                     to={`/country/${country.code}`}
                     key={country.code}
-                    className="d-flex flex-column align-items-center justify-content-center text-center border rounded p-3 text-decoration-none text-dark"
-                    style={{ width: "120px", height: "120px" }}
-                >
+                    className="d-flex flex-column align-items-center justify-content-center text-center border rounded p-3 text-decoration-none text-dark w-25">
                     <div className="fw-bold mb-2">{country.name}</div>
-                    <div style={{ fontSize: "2rem" }}>{country.emoji}</div>
+                    <div className="fs-1">{country.emoji}</div>
                 </Link>
             ))}
         </div>
