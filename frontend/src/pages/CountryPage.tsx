@@ -29,7 +29,7 @@ export const CountryPage: React.FC = () => {
         <div className="container-fluid d-flex flex-column justify-content-center align-items-center p-2">
             <div className="w-100 d-flex justify-content-start mb-4">
                 <Link to="/" className="btn btn-secondary">
-                    Retour à l'accueil
+                    Home
                 </Link>
             </div>
             <div className="card text-center p-4" style={{ width: "20rem" }}>
